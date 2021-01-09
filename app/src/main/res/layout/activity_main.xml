@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lnr_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_first"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_weight="0"
+        android:gravity="center"
+        android:text="@string/dialog_first"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+
+        />
+
+    <EditText
+        android:id="@+id/first_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="24"
+        android:gravity="center"
+        android:hint="@string/dialog_second"
+        android:inputType="textMultiLine"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/btn_first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_stroke_black95_press_white"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/btn_first"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+
+        android:textSize="18sp">
+
+    </Button>
+
+    <TextView
+        android:id="@+id/view_first"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+
+        android:textSize="18sp">
+
+    </TextView>
+
+    <Switch
+        android:id="@+id/switch_unswer_luk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_weight="0"
+        android:checked="false"
+        android:paddingTop="20dp"
+        android:switchPadding="8dp"
+        android:text="@string/switch_text"
+        android:textColor="@color/white"
+        android:textOff="@string/switch_off"
+        android:textOn="@string/switch_on"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+
+    <TextView
+        android:id="@+id/textView_ask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_weight="0"
+        android:gravity="center"
+        android:text="@string/answer_luk"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="normal"
+
+        />
+
+    <CheckBox
+        android:id="@+id/ch_box_first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:onClick="onCheckboxClicked"
+        android:text="Нет. Нет, это не правда!"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:ignore="OnClick">
+
+    </CheckBox>
+
+    <CheckBox
+        android:id="@+id/ch_box_second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:onClick="onCheckboxClicked"
+        android:text="Привет, папа."
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/selection"
+        tools:ignore="OnClick">
+
+    </CheckBox>
+
+
+</LinearLayout>

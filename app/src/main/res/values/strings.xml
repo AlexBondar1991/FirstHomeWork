@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">FirstHomeWork</string>
+    <string name="dialog_first">- Оби Ван не сказал, что случилось с твои отцом?</string>
+    <string name="dialog_second">Введите пожалуйста: -Он сказал, ты убил его.</string>
+    <string name="btn_first">Нажать</string>
+    <string name="answer_text">Нет, я твой отец</string>
+    <string name="answer_luk">Выберите правильный вариант:</string>
+    <string name="switch_text">Люк  молчит… Нажмите, чтобы продолжить диалог</string>
+    <string name="switch_on">ВКЛ</string>
+    <string name="switch_off">ВЫКЛ</string>
+
+
+
+</resources>
