@@ -3,6 +3,7 @@ package space.televox.firsthomework;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.content.res.ColorStateList;
 import android.graphics.Color;
 import android.graphics.Typeface;
@@ -27,7 +28,9 @@ public class MainActivity extends AppCompatActivity {
 //        Switch swtch = findViewById(R.id.switch_unswer_luk);
 
 
-        Button button = findViewById(R.id.btn_first);
+        Button button = findViewById(R.id.btn_first); // кнопка даилога
+        Button buttonTwo = findViewById(R.id.btn_next_lvl);
+
 
 
         CheckBox checkBox_one = findViewById(R.id.ch_box_first);
@@ -84,6 +87,17 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         // команда для кнопки Нажать - начало
+
+
+        // кнопка перехода на второй уровень - начало
+        buttonTwo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, SecondAnctivity.class);
+                startActivity(intent); finish();
+            }
+        });
+        // кнопка перехода на второй уровень - конец
 
     }
 

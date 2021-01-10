@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_second"
+    android:orientation="vertical"
+    android:padding="10dp"
+
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/second_activity_start"
+        android:textStyle="bold"
+        android:textColor="@color/black95"
+        android:textSize="22sp"
+        >
+    </TextView>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="18"
+        android:inputType="textPersonName|textCapWords"
+        android:hint="@string/hint_name"
+        android:autofillHints="@string/second_act_name_input"
+        tools:ignore="LabelFor">
+
+    </EditText>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        android:ems="18"
+        android:hint="@string/hint_surname"
+        android:inputType="textPersonName|textCapWords"
+        android:autofillHints="@string/second_act_surname_input"
+        tools:ignore="LabelFor">
+
+    </EditText>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        android:hint="@string/hint_phone"
+        android:ems="18"
+        android:inputType="phone"
+        android:autofillHints="@string/second_act_phone"
+        tools:ignore="LabelFor">
+
+    </EditText>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        android:ems="18"
+        android:hint="@string/hint_email"
+        android:inputType="textEmailAddress"
+        android:autofillHints="@string/second_act_email"
+        tools:ignore="LabelFor">
+
+    </EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/second_act_password"
+        android:textStyle="bold"
+        android:textColor="@color/black95"
+        android:textSize="22sp"
+
+        >
+    </TextView>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        android:ems="18"
+        android:inputType="textPassword"
+        tools:ignore="LabelFor"
+        >
+
+    </EditText>
+
+    <Button
+        android:id="@+id/btn_calendar_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button_stroke_black95_press_white"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/btn_nxt_lvl"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        >
+
+    </Button>
+
+
+</LinearLayout>

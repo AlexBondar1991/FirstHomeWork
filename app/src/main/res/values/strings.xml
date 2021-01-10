@@ -8,6 +8,20 @@
     <string name="switch_text">Люк  молчит… Нажмите, чтобы продолжить диалог</string>
     <string name="switch_on">ВКЛ</string>
     <string name="switch_off">ВЫКЛ</string>
+    <string name="second_activity_start">Для записи в отряд штурмовиков необходимо заполнить анкету</string>
+    <string name="second_act_name_input"> Введите свое имя</string>
+    <string name="second_act_surname_input"> Введите свою фамилию и отчество </string>
+    <string name="second_act_phone">тел.:</string>
+    <string name="second_act_email">email</string>
+    <string name="btn_nxt_lvl">далее</string>
+    <string name="second_act_password">Придумайте пароль для входа в личный кабинет</string>
+    <string name="hint_name">Введите имя</string>
+    <string name="hint_surname">Введите фамилию</string>
+    <string name="hint_phone">тел.:</string>
+    <string name="hint_email">email</string>
+
+
+
 
 
 

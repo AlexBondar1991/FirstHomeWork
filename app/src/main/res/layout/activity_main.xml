@@ -129,5 +129,22 @@
 
     </CheckBox>
 
+    <Button
+        android:id="@+id/btn_next_lvl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button_stroke_black95_press_white"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/btn_nxt_lvl"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        >
+
+    </Button>
+
 
 </LinearLayout>
