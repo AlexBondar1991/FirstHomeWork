@@ -11,4 +11,7 @@
     <color name="black60">#60000000</color>
     <color name="blue">#48d1ff</color>
     <color name="green">#9019FF19</color>
+    <color name="calc_text_color">#536e68</color>
+    <color name="calc_btn_color">#536e68</color>
+    <color name="calc_btn_color_sigh">#d6cab8</color>
 </resources>

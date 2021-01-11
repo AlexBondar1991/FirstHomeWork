@@ -19,6 +19,27 @@
     <string name="hint_surname">Введите фамилию</string>
     <string name="hint_phone">тел.:</string>
     <string name="hint_email">email</string>
+    <string name="calc_text_AC">CLEAR</string>
+    <string name="calc_text_Delete">Del</string>
+    <string name="calc_btn_one">1</string>
+    <string name="calc_btn_two">2</string>
+    <string name="calc_btn_three">3</string>
+    <string name="calc_btn_four">4</string>
+    <string name="calc_btn_five">5</string>
+    <string name="calc_btn_six">6</string>
+    <string name="calc_btn_seven">7</string>
+    <string name="calc_btn_eight">8</string>
+    <string name="calc_btn_nine">9</string>
+    <string name="calc_btn_zero">0</string>
+    <string name="calc_btn_division">÷</string>
+    <string name="calc_btn_multiply">*</string>
+    <string name="calc_btn_add">+</string>
+    <string name="calc_btn_subtract">-</string>
+    <string name="calc_btn_answ">=</string>
+    <string name="calc_btn_dot">.</string>
+
+
+
 
 
 
