@@ -32,5 +32,6 @@ public class CalendarActivity extends AppCompatActivity {
         });
 
         // метод для отслеживания выбранной даты конец
+        //
     }
 }
