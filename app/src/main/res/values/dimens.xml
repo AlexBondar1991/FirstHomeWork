@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textSizeBtn">30sp</dimen>
+    <dimen name="textSizeBtnSmall">10sp</dimen>
+    <dimen name="textSizeBtnXlarge">60sp</dimen>
+    <dimen name="textSizeBtnLand">20sp</dimen>
+    <dimen name="textSizeBtnTop">26sp</dimen>
+    <dimen name="textSizeBtnTopLand">18sp</dimen>
+    <dimen name="editTextSize">44sp</dimen>
+    <dimen name="editTextSizeLand">28sp</dimen>
+    <dimen name="marginCalc">1dp</dimen>
+    <dimen name="marginCalcBtn">5dp</dimen>
+</resources>
