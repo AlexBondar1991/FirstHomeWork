@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@drawable/background_calc"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_margin="@dimen/marginCalc"
-
-    >
-
+    android:background="@drawable/background_calc">
 
     <EditText
         android:id="@+id/calculationZone"
@@ -65,14 +62,14 @@
         android:id="@+id/btnSeven"
         android:layout_width="98dp"
         android:layout_height="85dp"
-        app:layout_constraintVertical_weight="1"
         android:backgroundTint="@color/calc_btn_color_95"
         android:text="@string/calc_btn_seven"
         android:textColor="@color/white"
         android:textSize="@dimen/textSizeBtn"
         android:textStyle="bold"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/btnAC" />
+        app:layout_constraintTop_toBottomOf="@id/btnAC"
+        app:layout_constraintVertical_weight="1" />
 
     <Button
         android:id="@+id/btnEight"
