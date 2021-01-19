@@ -5,14 +5,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_margin="@dimen/marginCalc"
+
     >
 
 
-    <com.google.android.material.textfield.TextInputLayout
+    <EditText
         android:id="@+id/calculationZone"
         android:layout_width="match_parent"
         android:layout_height="140dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="16dp"
         android:textAlignment="textEnd"
         android:textColor="@color/calc_text_color"
         android:textSize="@dimen/editTextSize"
@@ -22,7 +23,7 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <com.google.android.material.textfield.TextInputLayout
+    <EditText
         android:id="@+id/resultZone"
         android:layout_width="match_parent"
         android:layout_height="140dp"
@@ -36,9 +37,9 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/calculationZone" />
 
-    <com.google.android.material.button.MaterialButton
+    <Button
         android:id="@+id/btnAC"
-        android:layout_width="196dp"
+        android:layout_width="300dp"
         android:layout_height="85dp"
         android:backgroundTint="@color/calc_btn_color_sigh"
         android:text="@string/calc_text_AC"
@@ -46,11 +47,12 @@
         android:textSize="@dimen/textSizeBtnTop"
         android:textStyle="bold"
         app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/btnDelete"
         app:layout_constraintTop_toBottomOf="@id/resultZone" />
 
-    <com.google.android.material.button.MaterialButton
+    <Button
         android:id="@+id/btnDelete"
-        android:layout_width="196dp"
+        android:layout_width="300dp"
         android:layout_height="85dp"
         android:backgroundTint="@color/calc_btn_color_sigh"
         android:text="@string/calc_text_Delete"
@@ -60,9 +62,9 @@
         app:layout_constraintStart_toEndOf="@id/btnAC"
         app:layout_constraintTop_toTopOf="@id/btnAC" />
 
-    <com.google.android.material.button.MaterialButton
+    <Button
         android:id="@+id/btnSeven"
-        android:layout_width="98dp"
+        android:layout_width="150dp"
         android:layout_height="85dp"
         app:layout_constraintVertical_weight="1"
         android:backgroundTint="@color/calc_btn_color_95"
@@ -73,9 +75,9 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@id/btnAC" />
 
-    <com.google.android.material.button.MaterialButton
+    <Button
         android:id="@+id/btnEight"
-        android:layout_width="98dp"
+        android:layout_width="150dp"
         android:layout_height="85dp"
         android:layout_marginEnd="@dimen/marginCalc"
         android:backgroundTint="@color/calc_btn_color_95"
@@ -88,9 +90,9 @@
 
         />
 
-    <com.google.android.material.button.MaterialButton
+    <Button
         android:id="@+id/btnNine"
-        android:layout_width="98dp"
+        android:layout_width="150dp"
         android:layout_height="85dp"
         android:backgroundTint="@color/calc_btn_color_95"
         android:text="@string/calc_btn_nine"
@@ -100,9 +102,9 @@
         app:layout_constraintStart_toEndOf="@id/btnEight"
         app:layout_constraintTop_toTopOf="@id/btnEight" />
 
-    <com.google.android.material.button.MaterialButton
+    <Button
         android:id="@+id/btnDivide"
-        android:layout_width="98dp"
+        android:layout_width="150dp"
         android:layout_height="85dp"
         android:backgroundTint="@color/calc_btn_color_sigh"
         android:text="@string/calc_btn_division"
@@ -112,9 +114,9 @@
         app:layout_constraintStart_toEndOf="@id/btnNine"
         app:layout_constraintTop_toTopOf="@id/btnNine" />
 
-    <com.google.android.material.button.MaterialButton
+    <Button
         android:id="@+id/btnFour"
-        android:layout_width="98dp"
+        android:layout_width="150dp"
         android:layout_height="85dp"
         android:backgroundTint="@color/calc_btn_color_95"
         android:text="@string/calc_btn_four"
@@ -126,9 +128,9 @@
 
         />
 
-    <com.google.android.material.button.MaterialButton
+    <Button
         android:id="@+id/btnFive"
-        android:layout_width="98dp"
+        android:layout_width="150dp"
         android:layout_height="85dp"
         android:backgroundTint="@color/calc_btn_color_95"
         android:text="@string/calc_btn_five"
@@ -138,9 +140,9 @@
         app:layout_constraintStart_toEndOf="@id/btnFour"
         app:layout_constraintTop_toTopOf="@id/btnFour" />
 
-    <com.google.android.material.button.MaterialButton
+    <Button
         android:id="@+id/btnSix"
-        android:layout_width="98dp"
+        android:layout_width="150dp"
         android:layout_height="85dp"
         android:backgroundTint="@color/calc_btn_color_95"
         android:text="@string/calc_btn_six"
@@ -150,9 +152,9 @@
         app:layout_constraintStart_toEndOf="@id/btnFive"
         app:layout_constraintTop_toTopOf="@id/btnFive" />
 
-    <com.google.android.material.button.MaterialButton
+    <Button
         android:id="@+id/btnMultiply"
-        android:layout_width="98dp"
+        android:layout_width="150dp"
         android:layout_height="85dp"
         android:backgroundTint="@color/calc_btn_color_sigh"
         android:text="@string/calc_btn_multiply"
@@ -162,9 +164,9 @@
         app:layout_constraintStart_toEndOf="@id/btnSix"
         app:layout_constraintTop_toTopOf="@id/btnSix" />
 
-    <com.google.android.material.button.MaterialButton
+    <Button
         android:id="@+id/btnOne"
-        android:layout_width="98dp"
+        android:layout_width="150dp"
         android:layout_height="85dp"
         android:backgroundTint="@color/calc_btn_color_95"
         android:text="@string/calc_btn_one"
@@ -174,9 +176,9 @@
         app:layout_constraintStart_toStartOf="@id/btnFour"
         app:layout_constraintTop_toBottomOf="@id/btnFour" />
 
-    <com.google.android.material.button.MaterialButton
+    <Button
         android:id="@+id/btnTwo"
-        android:layout_width="98dp"
+        android:layout_width="150dp"
         android:layout_height="85dp"
         android:backgroundTint="@color/calc_btn_color_95"
         android:text="@string/calc_btn_two"
@@ -186,9 +188,9 @@
         app:layout_constraintStart_toEndOf="@id/btnOne"
         app:layout_constraintTop_toTopOf="@id/btnOne" />
 
-    <com.google.android.material.button.MaterialButton
+    <Button
         android:id="@+id/btnThree"
-        android:layout_width="98dp"
+        android:layout_width="150dp"
         android:layout_height="85dp"
         android:backgroundTint="@color/calc_btn_color_95"
         android:text="@string/calc_btn_three"
@@ -198,9 +200,9 @@
         app:layout_constraintStart_toEndOf="@id/btnTwo"
         app:layout_constraintTop_toTopOf="@id/btnTwo" />
 
-    <com.google.android.material.button.MaterialButton
+    <Button
         android:id="@+id/btnMinus"
-        android:layout_width="98dp"
+        android:layout_width="150dp"
         android:layout_height="85dp"
         android:backgroundTint="@color/calc_btn_color_sigh"
         android:text="@string/calc_btn_subtract"
@@ -210,9 +212,9 @@
         app:layout_constraintStart_toEndOf="@id/btnThree"
         app:layout_constraintTop_toTopOf="@id/btnThree" />
 
-    <com.google.android.material.button.MaterialButton
+    <Button
         android:id="@+id/btnDot"
-        android:layout_width="98dp"
+        android:layout_width="150dp"
         android:layout_height="85dp"
         android:backgroundTint="@color/calc_btn_color_95"
         android:text="@string/calc_btn_dot"
@@ -222,9 +224,9 @@
         app:layout_constraintStart_toStartOf="@id/btnOne"
         app:layout_constraintTop_toBottomOf="@id/btnOne" />
 
-    <com.google.android.material.button.MaterialButton
+    <Button
         android:id="@+id/btnZero"
-        android:layout_width="98dp"
+        android:layout_width="150dp"
         android:layout_height="85dp"
         android:backgroundTint="@color/calc_btn_color_95"
         android:text="@string/calc_btn_zero"
@@ -234,9 +236,9 @@
         app:layout_constraintStart_toEndOf="@id/btnDot"
         app:layout_constraintTop_toTopOf="@id/btnDot" />
 
-    <com.google.android.material.button.MaterialButton
+    <Button
         android:id="@+id/btnAnswer"
-        android:layout_width="98dp"
+        android:layout_width="150dp"
         android:layout_height="85dp"
         android:backgroundTint="@color/calc_btn_color_95"
         android:text="@string/calc_btn_answ"
@@ -246,9 +248,9 @@
         app:layout_constraintStart_toEndOf="@id/btnZero"
         app:layout_constraintTop_toTopOf="@id/btnZero" />
 
-    <com.google.android.material.button.MaterialButton
+    <Button
         android:id="@+id/btnAdd"
-        android:layout_width="98dp"
+        android:layout_width="150dp"
         android:layout_height="85dp"
         android:backgroundTint="@color/calc_btn_color_sigh"
         android:text="@string/calc_btn_add"
